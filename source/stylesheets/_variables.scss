@@ -11,7 +11,7 @@ $gray:                   darken(#666, 10%);
 $gray-light:             #bbb;
 $gray-lighter:           lighten($gray-base, 93.5%); // #eee
 
-$brand-primary:         #006DB8;
+$brand-primary:         #F44336;
 $brand-success:         #4CAF50;
 $brand-info:            #01579B;
 $brand-warning:         #EF6C00;
@@ -24,7 +24,7 @@ $brand-grey:            #90A4AE;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               #F4F4F4;
+$body-bg:               #FFFFFF;
 //** Global text color on `<body>`.
 $text-color:            $gray;
 
@@ -63,7 +63,7 @@ $line-height-computed:    floor(($font-size-base * $line-height-base)); // ~20px
 
 //** By default, this inherits from the `<body>`.
 $headings-font-family:    inherit;
-$headings-font-weight:    400;
+$headings-font-weight:    700;
 $headings-line-height:    1.1;
 $headings-color:          #444;
 
@@ -344,22 +344,22 @@ $container-lg:                 $container-large-desktop;
 //##
 
 // Basics of a navbar
-$navbar-height:                    34px;
+$navbar-height:                    54px;
 $navbar-margin-bottom:             $line-height-computed;
 $navbar-border-radius:             $border-radius-base;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2));
 $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2);
 $navbar-collapse-max-height:       340px;
 
-$navbar-default-color:             #ffffff;
-$navbar-default-bg:                $brand-primary;
-$navbar-default-border:            transparent;
+$navbar-default-color:             $brand-primary;
+$navbar-default-bg:                #efefef;
+$navbar-default-border:            #DDDDDD;
 
 // Navbar links
-$navbar-default-link-color:                #ffffff;
-$navbar-default-link-hover-color:          #ffffff;
+$navbar-default-link-color:                $brand-primary;
+$navbar-default-link-hover-color:          $brand-primary;
 $navbar-default-link-hover-bg:             darken($brand-primary, 8%);
-$navbar-default-link-active-color:         #ffffff;
+$navbar-default-link-active-color:         $brand-primary;
 $navbar-default-link-active-bg:            darken($brand-primary, 8%);
 $navbar-default-link-disabled-color:       #ccc;
 $navbar-default-link-disabled-bg:          transparent;
