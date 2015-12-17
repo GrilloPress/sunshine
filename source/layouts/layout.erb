@@ -19,11 +19,12 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-7 col-sm-3 col-md-2 sidebar sidebar-left sidebar-animate sidebar-md-show">
-                <%= partial "partials/sidebar" %>
+              <%= partial "partials/sidebar" %>
             </div>
           
             <div class="main col-md-10 col-md-offset-2">
-                <%= yield %>
+              <%= yield %>
+              <%= partial "partials/footer" %>
             </div>
         </div>
     </div>
