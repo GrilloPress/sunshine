@@ -1,13 +1,13 @@
 <hr>
 
 <div class="row">
-  <div class="col-md-7">
+  <div class="col-md-7 col-sm-7">
     <p>Copyright &copy; Sheffield Teaching Hospitals <%= Time.now.year %></p>
   </div>
   
-  <div class="col-md-5">
+  <div class="col-md-5 col-sm-5">
     <% link_to "http://www.sth.nhs.uk/" do %>
-      <%= image_tag "sheffield-teaching-hospitals.gif" %>
+      <%= image_tag "sheffield-teaching-hospitals.gif", class: "img-responsive" %>
     <% end %>
   </div>
 </div>
