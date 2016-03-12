@@ -7,17 +7,17 @@
 $gray-base:              #000;
 $gray-darker:            lighten($gray-base, 13.5%); // #222
 $gray-dark:              #212121;
-$gray:                   darken(#666, 10%);
-$gray-light:             #bbb;
+$gray:                   #282c37;      
+$gray-light:             #d9e1e8;
+$grey:                   $gray-light;
 $gray-lighter:           lighten($gray-base, 93.5%); // #eee
 
-$brand-primary:         #673AB7;
-$brand-success:         #4CAF50;
-$brand-info:            #01579B;
-$brand-warning:         #FCB040;
+$brand-primary:         #2b90d9;
+$brand-success:         #2AD9C5;
+$brand-info:            #9baec8;
+$brand-warning:         #ffc952;
 $brand-danger:          #e51c23;
-$brand-grey:            #EFDCE2;
-
+$gray-brand:            $gray-light; 
 
 //== Scaffolding
 //

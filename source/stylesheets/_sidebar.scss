@@ -20,14 +20,26 @@
 .sidebar {
   position: fixed;
   padding: 20px;
-  background-color: #efefef;
+  background-color: #394956;
   display: block;
-  top: 51px;
+  top: 0;
   bottom:0;
   z-index: 1000;
   min-height: 100%;
   max-height: none;
   overflow: auto;
+  
+  a {
+    
+    color: lighten($brand-info, 5%);
+    
+  }
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+  
+    background-color: lighten(#394956, 15%);
+  
 }
 
 .sidebar-left {
